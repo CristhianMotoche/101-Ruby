@@ -3,8 +3,9 @@ class Calculator
   def initialize
   end
 
+  # Public methods.
+  # The last expresion evaluated is returned.
   def plus(num1, num2)
-    # Return the last value evaluated
     num1 + num2
   end
 
@@ -16,7 +17,7 @@ class Calculator
     num1 * num2
   end
 
-  def div(num1, num2)
+  def div!(num1, num2)
       num1 / num2
   end
 end
