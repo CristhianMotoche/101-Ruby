@@ -14,6 +14,7 @@ Define a simple integer calculator for the basic operations.
 - Handle exceptions
 - [Options parser](http://ruby-doc.org/stdlib/libdoc/optparse/rdoc/OptionParser.html) for command line interface (CLI)
 - Args for CLI
+- While
 - Testing using assertions
   - assert_equal
   - assert_raise
