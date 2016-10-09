@@ -23,3 +23,5 @@ end
 sorting_algorithm = BubbleSort.new
 MyTest.run(sorting_algorithm)
 
+sorting_algorithm = QuickSort.new
+MyTest.run(sorting_algorithm)

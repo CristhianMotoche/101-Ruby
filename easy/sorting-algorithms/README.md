@@ -20,6 +20,8 @@ like: each_with_index, reverse_each, etc.
 - #each only returns the caller
 - For classical iteration
 - [ruby-lint](https://github.com/YorickPeterse/ruby-lint) static code analysis for Ruby
+- **partition** function `[1,2,3,4].partition { |i| i > 3 } # [[4],[1,2,3]]`
+- **Byebug** gem for debugging
 
 # Notes
 

@@ -1,3 +1,5 @@
+# require 'byebug' # << Gem for debugging
+
 class BubbleSort
   def initialize
   end
@@ -17,3 +19,18 @@ class BubbleSort
   end
 end
 
+class QuickSort
+  def initialize
+  end
+
+  def sort(array)
+    return array if array.length < 1
+
+    pivot = array[0]
+
+    less, greater = array[1..-1].partition { |i| i < pivot }
+    # debugger # Keyword for debug
+
+    sort(less) + [pivot] + sort(greater)
+  end
+end
